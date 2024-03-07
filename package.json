@@ -1,0 +1,13 @@
+{
+  "name": "cloudmatize-mf",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "concurrently \"pnpm --prefix main run dev\" \"pnpm --prefix module run dev\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
